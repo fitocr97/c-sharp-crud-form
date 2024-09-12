@@ -1,0 +1,69 @@
+# Ignorar la carpeta de binarios y objetos
+bin/
+obj/
+
+# Archivos de configuración del usuario de Visual Studio
+*.user
+*.suo
+*.userprefs
+
+# Archivos temporales de compilación
+*.cache
+*.csproj.FilesWrittenAbsolute.txt
+ipch/
+*.tlog/
+*.log
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+*.pdb
+
+# Omitir todos los archivos .NET Core y .NET Standard que son generados automáticamente
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Archivos de estado de la herramienta
+.restore.state
+*.ide/
+
+# Paquetes NuGet
+packages/
+*.nupkg
+
+# El archivo de configuración de Resharper
+_ReSharper*/
+*ReSharper*
+
+# Archivos de salida de compilación
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]ogs/
+
+# Archivos de herramientas de estilo y configuración
+.stylecop
+.editorconfig
+
+# Otros archivos y directorios a ignorar
+.vs/
+Thumbs.db
+.DS_Store
+*.psess
+*.vsp
+*.swp
+
+# Archivos específicos de despliegue
+*.Publish.xml
+*.pubxml
